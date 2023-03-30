@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  overflow: hidden;
+}
+
+/* body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+  gap: 3vw;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  background-color: #FFFFFF;
+  align-items: center;
+}
+.navbar .tit{
+  padding-left: 50px;
+}
+
+.navbar .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding-right: 50px;
+}
+.navbar .links .messagebox{
+  background-color: #F5F5F5;
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+}
+.navbar .links .noti{
+  background-color: #F5F5F5;
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+}
+.navbar .links .user{
+  display: flex;
+  justify-content: center;
+}
+.navbar .links .searchbox,
+#search {
+  height: 25px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+ .section1 {
+ margin-top: 2vw;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  /* background-color: #0ef169; */
+}
+.section {
+  /* background-color: #1b1bdd; */
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+
+.section1 .cards {
+  height: 20vh;
+  width: 20vw;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.section1 .cards .cards-icons {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.section1 .cards .cards-icons {
+  text-align: center;
+  display: flex;
+}
+.section .section2 {
+  margin-left: 50px;
+  box-shadow: 10px 30px 20px #E0E0E0;
+}
+.section2 table caption{
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+}
+.section .section2 .tophead{
+  display: flex;
+  flex-direction: row;
+}
+.section2 .tophead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 750px;
+  
+}
+.section2 .tophead .tophead-head1{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+.section2 .tophead .tophead-head2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
